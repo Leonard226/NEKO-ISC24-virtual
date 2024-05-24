@@ -14,7 +14,12 @@ make distclean
 FLAGS="-O3 -march=znver3 -mtune=znver3 -funroll-loops"
 
 ./regen.sh
-./configure FCFLAGS="${FLAGS}" CFLAGS="${FLAGS}" LDFLAGS="-L${LAPACK_HOME}/lib" --with-parmetis=${Parmetis_HOME} --with-metis=${metis_HOME} --prefix=${P_Neko_Install}
+./configure FCFLAGS="${FLAGS}" \
+            CFLAGS="${FLAGS}" \
+            LDFLAGS="-L${LAPACK_HOME}/lib" \
+            --with-parmetis=${Parmetis_HOME} \
+            --with-metis=${metis_HOME} \
+            --prefix=${P_Neko_Install}
 
 rm -rf ${P_Neko_Install}
 mkdir -p ${P_Neko_Install}
