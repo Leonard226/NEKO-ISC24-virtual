@@ -5,6 +5,12 @@ The virtual part was open for all teams, the teams were connecting to remote clu
 
 Out of the 19 virtual competing teams, our team, Team RACKlette representing ETH Zürich, placed 4th overall. 
 
+
+References: 
+- NEKO: https://neko.cfd/
+- ISC24 SCC hompage: https://www.isc-hpc.com/student-cluster-competition-2024.html
+- ISC24 SCC results, participants: https://www.hpcadvisorycouncil.com/events/student-cluster-competition/index.php 
+
 ## Tasks
 For the virtual part, 4 applications were presented, were I was assigned to work on NEKO. 
 It is a high-order spectral element flow simulation written in modern fortran, and has many applications in fluid dynamics. In particular the task included: 
